@@ -1,0 +1,14 @@
+import { LLMClientIdentifier } from 'magnitude-core';
+export declare function isLoopbackIp(address: string): boolean;
+export declare function isPrivateIp(address: string): boolean;
+export declare function extractHostname(urlOrHostname: string): string;
+export declare function cleanHostname(hostname: string): string;
+export declare function isLocalhostDomain(hostname: string): boolean;
+export declare function isLoopbackHost(urlOrHostname: string): boolean;
+export declare function isPrivateHost(urlOrHostname: string): boolean;
+export declare function isPrivateUrl(url: string): boolean;
+export declare function isLoopbackUrl(url: string): boolean;
+export declare function addProtocolIfMissing(url: string): string;
+export declare function describeModel(client: LLMClientIdentifier): string;
+export declare const knownCostMap: Record<string, number[]>;
+export declare function processUrl(...urls: (string | undefined)[]): string | undefined;
