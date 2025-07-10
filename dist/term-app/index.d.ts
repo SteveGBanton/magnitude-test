@@ -1,1 +1,0 @@
-export { TermAppRenderer } from './termAppRenderer';

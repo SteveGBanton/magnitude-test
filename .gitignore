@@ -11,6 +11,7 @@ package-lock.json
 *.swp
 *.swo
 .DS_Store
+dist
 
 # Logs
 logs
